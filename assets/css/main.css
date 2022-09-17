@@ -1,0 +1,98 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+main .riddon {
+    width: 1920px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+.riddon .group {
+    width: 1006px;
+    height: 121px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.riddon .group > .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 60px;
+}
+
+.riddon .group > .box .wrapper-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 88px;
+    height: 88px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.riddon .group > .box .wrapper-text {
+    width: 250px;
+    height: 20px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.riddon .group > .box h6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#79C0AA;
+    color: white;
+    border-radius: 50px;
+    width: 33px;
+    height: 33px;
+    font-size: 22px;
+}
+
+.riddon .group > .box h6 span {
+    font-size: 15px;
+    display: flex;
+    align-items: flex-end;
+    height: 25px;
+}
+
+.riddon .group > .box .zero-one {
+    position: absolute;
+    left: 545px;
+    top: 50px;
+}
+
+.riddon .group > .box .zero-two {
+    position: absolute;
+    left: 855px;
+    top: 45px;
+}
+
+.riddon .group > .box .zero-three {
+    position: absolute;
+    left: 1170px;
+    top: 45px;
+}
+
+.riddon .group > .box .zero-four {
+    position: absolute;
+    left: 1480px;
+    top: 45px;
+}
+
+
+
